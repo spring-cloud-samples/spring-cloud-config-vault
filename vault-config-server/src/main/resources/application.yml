@@ -1,0 +1,7 @@
+
+spring:
+  profiles:
+    active: vault
+  cloud.config.server.vault.kvVersion: 2
+server:
+  port: 8888
